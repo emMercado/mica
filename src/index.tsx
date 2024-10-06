@@ -7,7 +7,7 @@ import { BrowserRouter } from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById("root")!);
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/<nombre-del-repositorio>">
+    <BrowserRouter basename="/mica">
       <App />
     </BrowserRouter>
   </React.StrictMode>
