@@ -1,14 +1,16 @@
 {
   "files": {
     "main.css": "/mica/static/css/main.f855e6bc.css",
-    "main.js": "/mica/static/js/main.7635bf6e.js",
-    "static/media/logo.svg": "/mica/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.js": "/mica/static/js/main.013f589b.js",
+    "static/media/fondo.webp": "/mica/static/media/fondo.a7dd5a486044fcb34a01.webp",
+    "static/media/15.jpg": "/mica/static/media/15.ce783e6b833b38fd54a2.jpg",
+    "static/media/divider.png": "/mica/static/media/divider.2ac79b342c219b32310b.png",
     "index.html": "/mica/index.html",
     "main.f855e6bc.css.map": "/mica/static/css/main.f855e6bc.css.map",
-    "main.7635bf6e.js.map": "/mica/static/js/main.7635bf6e.js.map"
+    "main.013f589b.js.map": "/mica/static/js/main.013f589b.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.7635bf6e.js"
+    "static/js/main.013f589b.js"
   ]
 }
