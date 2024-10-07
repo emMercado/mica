@@ -56,7 +56,7 @@ export const HeaderSection = () => {
           />
           {/* Texto de la fecha */}
           <Typography variant="h4" sx={{ fontWeight: "bold" }}>
-            22.04.2023
+            8.10.2024
           </Typography>
           {/* Línea derecha */}
           <Box

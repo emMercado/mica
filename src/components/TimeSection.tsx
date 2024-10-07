@@ -93,10 +93,10 @@ export const TimeSection = () => {
               marginTop: "10px",
             }}
           >
-            <Typography variant="body1">DAYS</Typography>
-            <Typography variant="body1">HOURS</Typography>
-            <Typography variant="body1">MINUTES</Typography>
-            <Typography variant="body1">SECONDS</Typography>
+            <Typography variant="body1">Días</Typography>
+            <Typography variant="body1">Horas</Typography>
+            <Typography variant="body1">Minutos</Typography>
+            <Typography variant="body1">Segundos</Typography>
           </Box>
         </Grid>
       </Grid>
