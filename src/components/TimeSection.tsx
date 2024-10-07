@@ -36,6 +36,7 @@ export const TimeSection = () => {
           "linear-gradient(180deg, #1b263b 0%, #415a77 50%, #778da9 100%)", // Gradiente inspirado en los tonos de "La Noche Estrellada"
         color: "white",
         overflow: "hidden",
+        mt: "-10px",
       }}
     >
       <Grid
