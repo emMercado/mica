@@ -1,5 +1,6 @@
 import { Box, Button, Grid, styled, Typography } from "@mui/material";
 import fondonochestrellada from "../assets/img/fondo.webp";
+import whatsappIcon from "../assets/img/wsp.png";
 import PlaceOutlinedIcon from "@mui/icons-material/PlaceOutlined";
 import MobileFriendlyRoundedIcon from "@mui/icons-material/MobileFriendlyRounded";
 
@@ -79,10 +80,36 @@ export const PlaceSection = () => {
         <Grid container direction="column" alignItems="center">
           <MobileFriendlyRoundedIcon
             fontSize="large"
-            sx={{ width: "10vw", height: "10vw" }}
+            sx={{ width: "10vw", height: "10vw", mt: "15px" }}
           />
           <Typography variant="h5">Por favor confirmar asistencia</Typography>
+          <Typography variant="h6">al WhatsApp</Typography>
           <Typography variant="h6">antes del 15 de Octubre</Typography>
+
+          {/* Ícono de WhatsApp con enlace */}
+          <Box
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+              mt: 2,
+            }}
+          >
+            <Button
+              href="https://wa.me/5493804694187" // Reemplaza con el número de WhatsApp en formato internacional
+              target="_blank"
+              rel="noopener noreferrer"
+              sx={{
+                padding: "10px 20px", // Ajusta el padding del botón
+                backgroundColor: "#25D366", // Color de fondo típico de WhatsApp
+                borderRadius: "50px", // Bordes redondeados
+                "&:hover": {
+                  backgroundColor: "#20b358", // Color más oscuro en hover
+                },
+              }}
+            >
+              <Typography variant="subtitle2">Confirmar asistencia</Typography>
+            </Button>
+          </Box>
         </Grid>
       </Box>
     </Grid>

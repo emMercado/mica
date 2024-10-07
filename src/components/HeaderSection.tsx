@@ -6,7 +6,6 @@ export const HeaderSection = () => {
       container
       sx={{
         height: "100vh",
-        //backgroundImage: `url(${nightstars})`, // Imagen de fondo de la portada
         backgroundImage:
           "url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg)",
         backgroundSize: "cover",
@@ -17,6 +16,12 @@ export const HeaderSection = () => {
       }}
     >
       <Grid item xs={12} textAlign="center">
+        <Typography
+          variant="h3"
+          sx={{ marginTop: "16px", fontFamily: "'Dancing Script', cursive" }}
+        >
+          Mis 15 Años
+        </Typography>
         <Typography
           variant="h1"
           sx={{
@@ -63,10 +68,6 @@ export const HeaderSection = () => {
             }}
           />
         </Box>
-
-        <Typography variant="h3" sx={{ marginTop: "16px" }}>
-          Mis 15 Años
-        </Typography>
       </Grid>
     </Grid>
   );

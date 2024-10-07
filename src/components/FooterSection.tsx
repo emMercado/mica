@@ -33,14 +33,18 @@ export const FooterSection = () => {
           >
             <AutoAwesomeOutlinedIcon
               fontSize="large"
-              sx={{ width: "8vw", height: "8vw" }} // Ajusta el tamaño para que sea más visible
+              sx={{ width: "12vw", height: "12vw" }} // Ajusta el tamaño para que sea más visible
             />
           </Box>
         </Grid>
 
         {/* Texto en el centro */}
         <Grid item xs={12}>
-          <Typography variant="h5" fontWeight="bold">
+          <Typography
+            variant="h5"
+            fontWeight="bold"
+            sx={{ fontFamily: "'Dancing Script', cursive" }}
+          >
             ¡Una gran noche junto a vos!
           </Typography>
         </Grid>

@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
 import { Box, Grid, Typography } from "@mui/material";
-import divider from "../assets/img/divider.png";
-// import divider from "../assets/img/time.png";
 
 export const TimeSection = () => {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
@@ -48,7 +46,6 @@ export const TimeSection = () => {
         sx={{
           padding: "20px",
           backgroundColor: "rgba(0, 0, 0, 0.4)",
-          borderRadius: "10px",
           boxShadow: "0 8px 30px rgba(0, 0, 0, 0.7)",
         }}
       >
