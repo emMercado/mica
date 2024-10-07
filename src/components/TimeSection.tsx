@@ -89,8 +89,9 @@ export const TimeSection = () => {
             sx={{
               display: "flex",
               justifyContent: "center",
-              gap: "10px",
+              gap: "30px",
               marginTop: "10px",
+              ml: '2.3rem'
             }}
           >
             <Typography variant="body1">Días</Typography>
