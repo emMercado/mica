@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/mica/static/css/main.f855e6bc.css",
-    "main.js": "/mica/static/js/main.3d9dba57.js",
+    "main.js": "/mica/static/js/main.601afa17.js",
     "static/media/fondo.webp": "/mica/static/media/fondo.a7dd5a486044fcb34a01.webp",
     "static/media/15noche estrellada.jpg": "/mica/static/media/15noche estrellada.e0c6e246ea8f95d1468c.jpg",
     "index.html": "/mica/index.html",
     "main.f855e6bc.css.map": "/mica/static/css/main.f855e6bc.css.map",
-    "main.3d9dba57.js.map": "/mica/static/js/main.3d9dba57.js.map"
+    "main.601afa17.js.map": "/mica/static/js/main.601afa17.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.3d9dba57.js"
+    "static/js/main.601afa17.js"
   ]
 }
